@@ -1,0 +1,20 @@
+# Node modules
+node_modules/
+
+# Expo / React Native
+.expo/
+.expo-shared/
+dist/
+build/
+*.expo*
+
+# iOS / Android builds
+ios/build/
+android/build/
+
+# IDEs
+.vscode/
+.idea/
+
+# Environment files
+.env
