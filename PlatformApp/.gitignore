@@ -42,8 +42,5 @@ app-example
 /ios
 /android
 
-.idea
-.swp
-
 .idea/
 .vscode/

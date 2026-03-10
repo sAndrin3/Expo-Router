@@ -1,16 +1,10 @@
 import {StyleSheet, Text, View} from 'react-native'
 import React from 'react'
-import {Redirect} from "expo-router";
 
-export default function Profile() {
-    const isLoggedIn = false;
-
-    if (!isLoggedIn) {
-        return <Redirect href="/login" />;
-    }
+export default function AboutIOS() {
     return (
         <View style={styles.container}>
-            <Text>Profile</Text>
+            <Text>iOS About screen</Text>
         </View>
     )
 }
@@ -19,5 +13,5 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-    }
+    },
 })
